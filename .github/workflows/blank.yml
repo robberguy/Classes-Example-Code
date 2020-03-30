@@ -1,0 +1,18 @@
+class Melee_Character:
+    def __init__ (Character, Game, Landing_Lag, Hit_Frames, Auto_Cancel_Frames):
+        Character.Game = Game
+        Character.Landing_Lag = Landing_Lag
+        Character.Hit = Hit_Frames
+        Character.Auto_Cancel = Auto_Cancel_Frames
+    def Character(Character):
+        print("I am " + Character.Game + "My landing lag is " + Character.Landing_Lag + "My hit frames are " + Character.Hit + "My autocancel frames are " + Character.Auto_Cancel)
+        
+C1 = Melee_Character("Marth From Super Smash Bros Melee. ", "15 when not l cancelled for fair and 7 when autocancelled. For my uair, it is 15 when not l cancelled and 7 when it is. For bair, it is 24 when not l cancelled and 12 when it is. For my nair, it is 15 frames of landing lag when not l cancelled, while it is 7 when it is l cancelled. For my down air, it is 32 when not l cancelled, while it is 16 when it is. ", "4-7 for fair, 5-8 for uair, 7-11 for bair, 6-7, `5-21 for neutral air, and 6-9 for dair. ", "after frame 27 for fiar, 4-27 for uair, after frame 32 for bair, 5-25 for nair, and 5-48 for dair.")
+C2 = Melee_Character("Falco Lobardi from Super Smash Bros Melee", "22 frames for fair when not l canclled, while it is 11 frames when l cancelled. For uair, it is 18 frames when not l cancelled, while it is 9 when l cancelled. For back air, it is 20 when not l cancelled, while it is 10 when autocancelled. For my neutral air, it is 15 when not l cancelled, while it is 7 when l cancelled. For down air, it is 18 frames when not l cancelled, while it is 9 when l cancelled. ", "For fair, it is 6-8,16-18,24-26, 33-35,  and 43-45. For uair, the hit frames are between 8-9 and 11-14. For bair, it is 4-19 in terms of hit frames. For nair, it is 4-31 in terms of hit frames. For dair, it is 5-24 in terms of hit frames. ", "5-49 for fair, 7-26 for uair, 3-23 for bair, 3-37 for nair, and 4-30 for dair.")
+C3 = Melee_Character("Fox McCloud from Super Smash Bros Melee", "22 frames for fair when not l canclled, while it is 11 frames when l cancelled. For uair, it is 18 frames when not l cancelled, while it is 9 when l cancelled. For back air, it is 20 when not l cancelled, while it is 10 when autocancelled. For my neutral air, it is 15 when not l cancelled, while it is 7 when l cancelled. For down air, it is 18 frames when not l cancelled, while it is 9 when l cancelled. ", "For fair, it is 6-8,16-18,24-26, 33-35,  and 43-45. For uair, the hit frames are between 8-9 and 11-14. For bair, it is 4-19 in terms of hit frames. For nair, it is 4-31 in terms of hit frames. For dair, it is 5-6, 8-9, 11-12, 14-15, 17-18, 20-21, and 23-24 in terms of hit frames. ", "5-49 for fair, 7-26 for uair, 3-24 for bair, 3-37 for nair, amd 4-31 for dair.")
+
+C1.Character()
+
+C2.Characrer()
+
+C2.Character()
